@@ -1,0 +1,62 @@
+.sliderContainer .carousel-inner .bg-cover1{
+     height: 90vh;
+     background-image: url("/public/Images/slider-2.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+  
+.sliderContainer .carousel-caption
+{
+
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    top: 23vh;
+
+}
+.sliderContainer .btn1{
+
+    margin: 10px;
+    background: linear-gradient(to right,#43cae9, #38f9d7 100%);
+    padding: 7px 30px 7px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    border-radius: 29px;
+    text-transform: uppercase;
+
+}
+
+.sliderContainer .btn2{
+    margin: 10px;
+    background: linear-gradient(to right,#43cae9, #38f9d7 100%);
+    padding: 7px 30px 7px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    border-radius: 29px;
+    text-transform: uppercase;
+
+}
+@media (max-width: 991px)
+ {
+    .sliderContainer .carousel-inner .bg-cover1{
+        height: 50vh;
+        
+   }  
+
+   .sliderContainer .carousel-caption
+   {
+    font-size: 30px;
+    font-weight: bold;
+    top: 11vh;
+   }
+ }

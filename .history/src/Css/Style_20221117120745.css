@@ -1,0 +1,25 @@
+.custom-container {
+    max-width: 600px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+  .custom-container h4 {
+    font-size: 44px;
+    text-transform: uppercase;
+
+}
+
+  .custom-container p {
+    font-size: 20px;
+}
+@media (max-width: 991px) {
+        h4 {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+        p {
+        font-size: 16px;
+    }
+}

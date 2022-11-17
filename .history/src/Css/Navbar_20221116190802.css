@@ -1,0 +1,23 @@
+.NavContainer  .navbar-toggler
+{
+    color:black;
+    border:none;
+}
+.NavContainer .navbar-brand img{
+    max-width: 150px;
+}
+.NavContainer .navbar-dark
+{
+    background: linear-gradient(to right,#43cae9, #38f9d7 100%)
+}
+.NavContainer .navbar-nav a{
+color:#fff;
+font-weight: 700;
+navbar-nav
+}
+@media (min-width: 1200px)
+{
+.NavContainer .container {
+    max-width: 1140px;
+}
+}

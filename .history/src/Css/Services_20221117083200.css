@@ -1,0 +1,11 @@
+.services h4{
+    font-size: 44px;
+    font-f;
+}
+
+@media (max-width: 991px)
+ {
+    .services h4{
+        font-size: 28px;
+    }
+ }

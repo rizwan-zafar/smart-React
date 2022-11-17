@@ -1,0 +1,23 @@
+.services h4{
+    font-size: 44px;
+    text-transform: uppercase;
+   
+}
+.services p{
+    font-size: 20px;
+}
+.services .custom-container
+{
+    max-width: 600px;   
+}
+
+@media (max-width: 991px)
+ {
+    .services h4{
+        font-size: 25px;
+       text-transform: uppercase;
+    }
+    .services p{
+        font-size: 16px;
+     }
+ }

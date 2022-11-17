@@ -1,0 +1,14 @@
+.services h4{
+    font-size: 44px;
+    text-transform: uppercase;
+   
+}
+
+@media (max-width: 991px)
+ {
+    .services h4{
+        font-size: 25px;
+    text-transform: uppercase;
+
+    }
+ }
