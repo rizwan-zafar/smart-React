@@ -38,4 +38,8 @@
         font-size: 25px;
         text-transform: uppercase;
     }   
+    .pricing .row>div {
+     margin-bottom:25px;    
 }
+}
+
