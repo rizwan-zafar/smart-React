@@ -2,6 +2,18 @@
     padding-top: 90px;
     padding-bottom: 100px;
 }
+.btn1{
+
+    margin: 10px !important;
+    background: linear-gradient(to right,#43cae9, #38f9d7 100%);
+    padding: 7px 30px 7px 30px !important;
+    font-weight: bold !important;
+    color: white !important;
+    font-size: 17px !important;
+    border-radius: 29px !important;
+    text-transform: uppercase !important;
+
+}
 .card{
     border: none !important;
 }

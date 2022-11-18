@@ -33,7 +33,7 @@
 .sliderContainer .carousel-caption p{
     font-size: 44px 
 }
-.sliderContainer .btn1{
+/* .sliderContainer .btn1{
 
     margin: 10px;
     background: linear-gradient(to right,#43cae9, #38f9d7 100%);
@@ -44,7 +44,7 @@
     border-radius: 29px;
     text-transform: uppercase;
 
-}
+} */
 
 .sliderContainer .btn2{
     margin: 10px;

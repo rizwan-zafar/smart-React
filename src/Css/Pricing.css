@@ -6,9 +6,12 @@
     font-size: 44px;
     text-transform: uppercase;
 }
-/* .pricing .card img{
+.pricing .row{
+    margin-right: 0;
+}
+.pricing .card img{
     max-width: 200px;
-}    */
+}   
 .pricing .card .sub-title
 {
     font-size: 20px;
@@ -18,7 +21,17 @@
     position: relative;
     margin-top: 24px;
 }
-  
+.pricing .inner-item ul li{
+    list-style: none;
+}
+.pricing .inner-item{
+    text-align: left !important;
+}
+.pricing .inner-item .tick{
+    color:#38f9d7;
+    padding-right: 15px;
+}
+ 
  @media (max-width: 991px) {
     
     .pricing .custom-container h4 {
