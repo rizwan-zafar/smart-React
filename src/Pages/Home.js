@@ -4,6 +4,7 @@ import Slider from "../Components/Slider";
 import Service from "../Components/Service";
 import Portfolio from "../Components/Portfolio";
 import Pricing from "../Components/Pricing";
+import Subscribe from "../Components/Subscribe";
 export default function Home() {
     return (
         <div>
@@ -12,6 +13,7 @@ export default function Home() {
             <Service />
             <Portfolio />
             <Pricing />
+            <Subscribe />
         </div>
     )
 }
