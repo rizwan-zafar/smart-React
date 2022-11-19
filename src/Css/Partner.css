@@ -1,0 +1,9 @@
+.partner img{
+    width: 200px !important;
+}
+.partner button{
+    display: none;
+}
+.partner ol{
+    display: none;
+}

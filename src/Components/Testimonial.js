@@ -34,11 +34,12 @@ export default function Testimonial() {
         initialIndex: 2
     }
     return (
-        <div className="testimonial initial container">
+        <div className="testimonial initial">
             <div className='container custom-container text-center'>
                 <h4>Testimonials</h4>
                 <p className="fs-6">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
             </div>
+            <div className="container">
             <div className="row row-cols-1 text-center">
                 <Flickity
                     className={'carousel'} // default ''
@@ -78,6 +79,7 @@ export default function Testimonial() {
 
 
                 </Flickity>
+            </div>
             </div>
         </div>
     )
