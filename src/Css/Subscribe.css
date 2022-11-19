@@ -8,6 +8,9 @@
     padding: 6px;
 
 }
+.subscribe .border input{
+    box-shadow: none;
+}
 
 @media (max-width: 400px) {
     .subscribe input::placeholder {

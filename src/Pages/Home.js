@@ -5,6 +5,7 @@ import Service from "../Components/Service";
 import Portfolio from "../Components/Portfolio";
 import Pricing from "../Components/Pricing";
 import Subscribe from "../Components/Subscribe";
+import Testimonial from "../Components/Testimonial"
 export default function Home() {
     return (
         <div>
@@ -14,6 +15,7 @@ export default function Home() {
             <Portfolio />
             <Pricing />
             <Subscribe />
+            <Testimonial /> 
         </div>
     )
 }
