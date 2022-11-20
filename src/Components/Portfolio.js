@@ -159,12 +159,12 @@ export default function Portfolio() {
                     }) : "loading"}
                 </ul>
 
-
+ 
                 {/* data of tab bar */}
                 <div className="row row-cols-1  ">
                     {portfolio ? portfolio.map((item, key) => {
                         return (<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" key={key}>
-                            <div className="card h-100" >
+                            <div className="card h-100">
                                 <img src={item.image} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title fw-bold">{item.title}</h5>

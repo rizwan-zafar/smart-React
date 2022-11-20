@@ -39,7 +39,7 @@ export default function Testimonial() {
                 <h4>Testimonials</h4>
                 <p className="fs-6">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
             </div>
-            <div className="container">
+            <div className="container set-responsive">
             <div className="row row-cols-1 text-center">
                 <Flickity
                     className={'carousel'} // default ''
@@ -49,6 +49,7 @@ export default function Testimonial() {
                     reloadOnUpdate // default false
                     static // default false
                 >
+                    
                     {testimonialArray ? testimonialArray.map((item, index) => {
                         return (<div key={index} className="col-xs-6 col-sx-3 col-md-6 col-lg-6 col-xl-6 set-padding">
                             <div className="card shadow">
@@ -67,17 +68,6 @@ export default function Testimonial() {
                             </div>
                         </div>)
                     }) : ""}
-
-
-
-
-
-
-
-
-
-
-
                 </Flickity>
             </div>
             </div>

@@ -8,6 +8,7 @@ import Subscribe from "../Components/Subscribe";
 import Testimonial from "../Components/Testimonial"
 import Partners from "../Components/Partners"
 import Contact from "../Components/Contact";
+import Footer from "../Components/Footer"
 export default function Home() {
     return (
         <div>
@@ -20,6 +21,7 @@ export default function Home() {
             <Testimonial /> 
             <Partners />
             <Contact />
+            <Footer />
         </div>
     )
 }

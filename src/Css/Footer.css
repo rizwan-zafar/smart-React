@@ -1,0 +1,32 @@
+.footer .restyle, a{
+text-decoration: none;
+color:black;
+font-weight: 500;
+line-height: 35px;
+}
+.copyright{
+    margin-top: 10%;
+}
+.footer .restyle a:hover{
+     color:#43cae9;
+     margin-left: 10px;
+     transition: all 1s;
+}
+
+.footer .copyright  span{
+    color: black;
+    font-weight: bold;
+}
+.footer .copyright .social img{
+    width: 25px;
+    margin: 12px;
+}
+.footer .social{
+    text-align:  right;
+}
+
+@media (max-width: 991px) {
+    .footer .copyright,.social{
+       text-align: center !important;
+     }
+}

@@ -25,4 +25,8 @@
         font-size: 25px;
         text-transform: uppercase;
     }
+    .testimonial .set-responsive
+    {
+        max-width: 90%;
+    }
 }
