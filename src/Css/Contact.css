@@ -1,0 +1,39 @@
+.contact .custom-container h4{
+    font-size: 44px;
+    text-transform: uppercase;
+
+}
+
+.contact .row .form-label{
+    font-size: 12px;
+    line-height: 18px;
+    color: #6c6c6c;
+ }
+ .contact .row input,.form-control {
+     border:2px solid #aaa8a8;
+     border-radius: 0;
+ }
+ 
+ .contact .restyle
+ {
+     list-style: none;
+ }
+ .contact .restyle li
+ {
+     line-height: 30px;
+ }
+ .contact .gray{
+     color:#6c6c6c;
+  }
+
+  @media (max-width: 991px) {
+    
+
+    .contact .custom-container h4 {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+   
+   
+}

@@ -7,6 +7,7 @@ import Pricing from "../Components/Pricing";
 import Subscribe from "../Components/Subscribe";
 import Testimonial from "../Components/Testimonial"
 import Partners from "../Components/Partners"
+import Contact from "../Components/Contact";
 export default function Home() {
     return (
         <div>
@@ -18,6 +19,7 @@ export default function Home() {
             <Subscribe />
             <Testimonial /> 
             <Partners />
+            <Contact />
         </div>
     )
 }
