@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Css/Portfolio.css"
+import { motion } from "framer-motion"
 
 export default function Portfolio() {
 
@@ -78,6 +79,7 @@ export default function Portfolio() {
         }
     ]
 
+    const[scaler,setScale]=React.useState(0);
     /*
      * Active Tab
      @ params string
@@ -129,7 +131,7 @@ export default function Portfolio() {
     */
     const handleFilter = (value) => {
         manageActiveTab(value)
-
+       
         if (value === '') {
             setPortfolio(portfolioArray);
         }
@@ -137,10 +139,10 @@ export default function Portfolio() {
             const data = portfolioArray.filter(item => item.type === value)
             setPortfolio(data)
         }
-
+         
     }
     return (
-        <div className='portfolio initial'>
+        <div className='portfolio initial' id="portfolio">
             <div className='container custom-container text-center'>
                 <h4>Our Portfolio</h4>
                 <p className="fs-6">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
@@ -152,7 +154,7 @@ export default function Portfolio() {
                 <ul className=" nav  nav-fill">
                     {Tabs ? Tabs.map((item, index) => {
                         return (
-                            <li key={index} className={`nav-item ${item.active}`} aria-current="page" onClick={() => { handleFilter(item.value) }}>
+                            <li key={index} className={`nav-item ${item.active}`} aria-current="page" onClick={() => { handleFilter(item.value); setScale(1)}}>
                                 {item.title}
                             </li>
                         )
@@ -161,20 +163,27 @@ export default function Portfolio() {
 
  
                 {/* data of tab bar */}
-                <div className="row row-cols-1  ">
+                <div className="row row-cols-1  "> 
                     {portfolio ? portfolio.map((item, key) => {
-                        return (<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" key={key}>
+                      
+                        return (
+                        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" key={key}>
                             <div className="card h-100">
+                            <motion.div whileHover={{scale:1.05}} animate={{scale:scaler?scaler:1}} initial={{scale:0}} transition={{duration:0.5}}>
                                 <img src={item.image} className="card-img-top" alt="..." />
+                            </motion.div>
                                 <div className="card-body">
                                     <h5 className="card-title fw-bold">{item.title}</h5>
                                     <p className="fs-6">{item.description}</p>
                                 </div>
 
                             </div>
-                        </div>)
+                            
+                        </div>); 
+                        
                     }) : "loading"}
                 </div>
+                    
 
 
             </div>

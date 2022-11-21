@@ -18,7 +18,7 @@ export default function Home() {
             <Portfolio />
             <Pricing />
             <Subscribe />
-            <Testimonial /> 
+            <Testimonial />
             <Partners />
             <Contact />
             <Footer />

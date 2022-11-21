@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Css/Pricing.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {motion} from "framer-motion"
 const pricingPlaneArray = [
     {
         image: "pricing.svg",
@@ -39,12 +40,14 @@ export default function Pricing() {
             </div>
             {/* card */}
             <div className="container">
+
                 <div className="row row-cols-1 text-center">
 
                     {pricingPlaneArray ? pricingPlaneArray.map((item, index) => {
                         return (
                             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" key={index}>
                                 <div className="card h-100 shadow "  >
+                                <motion.div whileInView={{y:0}} initial={{y:100}} transition={{ delay:0.2,duration:1}}>
                                     <div className="pt-4">
                                         <img src={`Images/${item.image}`} className="card-img-top" alt="..." />
                                     </div>
@@ -61,6 +64,7 @@ export default function Pricing() {
                                         </div>
                                         <button className="btn btn1">Get Start</button>
                                     </div>
+                    </motion.div>
                                 </div>
                             </div>
                         )

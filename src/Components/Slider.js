@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Css/Slider.css"
+ import "../Css/Slider.css"
 
 export default function Slider() {
     return (
@@ -17,7 +17,7 @@ export default function Slider() {
                         <div className="carousel-caption">
                             <p> If not now, then when?</p>
                             <div>
-                                <button className="btn btn1">Get Start</button>
+                                <button  className="btn btn1">Get Start</button>
                                 <button className="btn btn2">Download</button>
                             </div>
                         </div>

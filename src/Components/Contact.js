@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Css/Contact.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {motion} from "framer-motion"
 export default function Contact() {
     return (
         <div className="contact initial">
@@ -11,7 +12,9 @@ export default function Contact() {
 
             <div className="container">
                 <div className="row">
+                
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <motion.div whileInView={{scale:1}} initial={{scale:0}} transition={{  duration:0.5}}>
                         <h4 className="fw-bold fs-3">Lets talk about the project</h4>
                         <p className="gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam unde repellendus delectus facilis quia consequatur maxime perferendis! Sequi, modi consequatur.</p>
                         <div>
@@ -22,8 +25,11 @@ export default function Contact() {
                             </ul>
 
                         </div>
+                    </motion.div>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <motion.div whileInView={{scale:1}} initial={{scale:0}} transition={{ duration:0.5}}>
+
                         <form>
                             <div className="mb-3">
                                 <label className="form-label ">Name</label>
@@ -39,9 +45,8 @@ export default function Contact() {
                             </div>
                             <button type="submit" className="mt-4 btn btn1 ">Submit</button>
                         </form>
+                    </motion.div>
                     </div>
-
-
                 </div>
             </div>
 
