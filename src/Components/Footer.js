@@ -1,5 +1,7 @@
 import React from 'react'
 import "../Css/Footer.css"
+ import { motion } from "framer-motion"
+import ScrollTop from "react-scroll-to-top"
 
 export default function Footer() {
     return (
@@ -47,15 +49,27 @@ export default function Footer() {
 
                 <div className="row copyright">
                     <div className="col-lg-5">Crafted by <span>UIdeck </span> and UI Elements from<a href="/www.mayonity.com"><span> Mayonity.com</span></a></div>
-                    <div className="col-lg-2 text-center"><img src="/Images/logo-2.svg" alt="footer logo"/></div>
+                    <div className="col-lg-2 text-center"><img src="/Images/logo-2.svg" alt="footer logo" /></div>
                     <div className="col-lg-5 social">
-                        <img src="/Images/square-whatsapp.svg"   alt="footer logo"/>
-                        <img src="/Images/linkedin.svg" alt="footer logo"/>
-                        <img src="/Images/square-instagram.svg" alt="footer logo"/>
-                        <img src="/Images/square-twitter.svg" alt="footer logo"/>
-                    
+                        <img src="/Images/square-whatsapp.svg" alt="footer logo" />
+                        <img src="/Images/linkedin.svg" alt="footer logo" />
+                        <img src="/Images/square-instagram.svg" alt="footer logo" />
+                        <img src="/Images/square-twitter.svg" alt="footer logo" />
+
+                    </div>
+
+
+                    <div className="arrow-button">
+                      
+                        <motion.div drag whileDrag={{ scale: 1 }} dragConstraints={{ left: 10, top: 10, bottom: 2,right:2 }}>
+                                <ScrollTop smooth  className="style"  >
+                           </ScrollTop>
+                        </motion.div>
+                       
+
                     </div>
                 </div>
+
             </div>
         </div>
     )

@@ -1,32 +1,57 @@
-.footer .restyle, a{
-text-decoration: none;
-color:black;
-font-weight: 500;
-line-height: 35px;
-}
-.copyright{
-    margin-top: 10%;
-}
-.footer .restyle a:hover{
-     color:#43cae9;
-     margin-left: 10px;
-     transition: all 1s;
+.footer .restyle,
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    line-height: 35px;
 }
 
-.footer .copyright  span{
+.copyright {
+    margin-top: 10%;
+}
+
+.footer .restyle a:hover {
+    color: #43cae9;
+    margin-left: 10px;
+    transition: all 1s;
+}
+
+.footer .copyright span {
     color: black;
     font-weight: bold;
 }
-.footer .copyright .social img{
+
+.footer .copyright .social img {
     width: 25px;
     margin: 12px;
 }
-.footer .social{
-    text-align:  right;
+
+.footer .social {
+    text-align: right;
+}
+
+.footer .arrow-button {
+    text-align: end;
+    cursor: pointer;
+    position: fixed;
+    z-index: 4;
+    left: -20px;
+    bottom: 10px;
+}
+.footer .arrow-button .style{
+    background: #38f9d7;
+    border-radius: 10px;
+  
+}
+.footer .arrow-button .style>svg{
+    padding: 4px;
+    font-weight: bold;
 }
 
 @media (max-width: 991px) {
-    .footer .copyright,.social{
-       text-align: center !important;
-     }
+
+    .footer .copyright,
+    .social {
+        text-align: center !important;
+    }
 }
