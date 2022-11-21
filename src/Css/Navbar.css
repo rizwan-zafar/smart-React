@@ -1,4 +1,9 @@
  
+.NavContainer{
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 3;
+}
 .NavContainer  .navbar-toggler
 {
     color:black; 
@@ -14,6 +19,7 @@
 
 .NavContainer .navbar-nav li{ 
    padding: 11px 16px;
+   cursor: pointer;
  }
 .NavContainer .navbar-nav li a{
 color:#fff;
@@ -46,6 +52,10 @@ font-size: 16px;
         -webkit-box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
         -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    }
+    .setVisible{
+      visibility: hidden;
+    
     }
  }
 

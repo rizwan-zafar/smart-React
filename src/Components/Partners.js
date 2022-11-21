@@ -39,7 +39,7 @@ export default function Partners() {
         initialIndex: 2
     }
     return (
-        <div className="partner initial">
+        <div className="partner initial" id="clients">
             <div className="container">
                 <Flickity
                     className={'carousel'} // default ''

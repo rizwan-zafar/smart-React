@@ -142,7 +142,7 @@ export default function Portfolio() {
          
     }
     return (
-        <div className='portfolio initial' id="portfolio">
+        <div className='portfolio initial' id="portfolio" >
             <div className='container custom-container text-center'>
                 <h4>Our Portfolio</h4>
                 <p className="fs-6">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Slider() {
     return (
-        <div className="sliderContainer"> 
+        <div className="sliderContainer" id="home"> 
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
                 
                 <div className="carousel-indicators">

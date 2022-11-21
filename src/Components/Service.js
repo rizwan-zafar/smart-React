@@ -3,7 +3,7 @@ import "../Css/Services.css"
 import { motion } from "framer-motion"
 export default function Service() {
     return (
-        <div className="services initial">
+        <div className="services initial" id="about">
 
             <div className="text-center">
                 <motion.div whileInView={{ y: 0 }} initial={{ y: 100 }} transition={{ duration: 0.5, delay: 0 }}>

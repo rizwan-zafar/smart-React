@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {motion} from "framer-motion"
 export default function Contact() {
     return (
-        <div className="contact initial">
+        <div className="contact initial" id="contact">
             <div className='container custom-container text-center'>
                 <h4>Get in touch</h4>
-                <p className="fs-6 grayx">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                <p className="fs-6 gray">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
             </div>
 
             <div className="container">

@@ -33,7 +33,7 @@ const pricingPlaneArray = [
 ]
 export default function Pricing() {
     return (
-        <div className="pricing initial">
+        <div className="pricing initial" id="pricing">
             <div className='container custom-container text-center'>
                 <h4>Pricing Plan</h4>
                 <p className="fs-6">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
